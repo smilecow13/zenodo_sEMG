@@ -1,0 +1,19 @@
+Zenodo bicep, 26 trial (13 subject × trial 5 R, trial 6 L)
+
+(W) ρ theo cửa sổ 4 s/2 s, toàn phổ — trial_summary_with_flags.csv
+  MDF: p10=-0.911  p25=-0.833  p50=-0.655  p75=-0.371  p90=-0.191
+  MNF: p10=-0.951  p25=-0.850  p50=-0.631  p75=-0.443  p90=-0.054
+  ρ_MDF ≥ 0: 2/26 trial; is_outlier: 2
+  số cửa sổ: p10=+91.000  p25=+105.000  p50=+132.000  p75=+162.500  p90=+171.500
+
+(R) ρ theo rep, MDF_mean ~ rep_idx — per_cycle_features_v2b.csv
+  MDF: p10=-0.863  p25=-0.808  p50=-0.562  p75=-0.380  p90=-0.196
+  MNF: p10=-0.907  p25=-0.821  p50=-0.614  p75=-0.393  p90=-0.209
+
+(P) ρ(FCF đoán, rep_idx), G12 LOSO in-fold, 24 trial — g12_rowlevel_predictions_v2b.csv
+  p10=+0.499  p25=+0.611  p50=+0.766  p75=+0.862  p90=+0.908
+
+Hình dạng set (theo bộ cắt rep của Zenodo)
+  N_total: p10=+66.500  p25=+78.250  p50=+90.000  p75=+111.000  p90=+144.500
+  rep trung vị (s): p10=+1.982  p25=+2.098  p50=+2.537  p75=+3.041  p90=+3.725
+  thời lượng set (s): p10=+179.963  p25=+207.957  p50=+261.946  p75=+322.933  p90=+340.930

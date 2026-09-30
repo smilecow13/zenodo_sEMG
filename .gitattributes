@@ -1,0 +1,7 @@
+# 13 mô hình fold (82 MB, nhị phân): qua Git LFS
+models/*.joblib filter=lfs diff=lfs merge=lfs -text
+
+# Dữ liệu và bảng tham chiếu: giữ nguyên từng byte, không để git đổi xuống dòng
+data/** -text
+reference/** -text
+SOURCES.sha256 -text

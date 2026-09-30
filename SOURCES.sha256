@@ -1,0 +1,19 @@
+# Bản sao từ repo chính sEMG_FCF_Wearable, commit 3f64e1bad68f0c09705d0c4cb4d8cd2a1c0510dc
+# SHA-256 sau khi đổi CRLF -> LF. Kiểm bằng: python verify_copies.py
+# KHÔNG sửa các file này ở đây; sửa ở repo chính rồi chép lại và cập nhật bảng.
+4bbd3534b5be8373411b38dfd64fdff5dba62186b17a720802bd7575de4fd222  zenodo_code/eval_protocols.py  <-  preprocessing/eval_protocols.py
+4bd1a963d232b2133bf0a779da6850b20ea6994f202d56e0ce8e1980e540f27e  zenodo_code/extra_features.py  <-  preprocessing/extra_features.py
+f186f1e733572981a80b89803b6f0baa1db8ee8a5f29a6f743b7f40b51a6efc4  zenodo_code/feature_selection.py  <-  preprocessing/feature_selection.py
+97450b6d90675200f491219474bb29986be7cff71073d41826857a07c9414bfc  zenodo_code/grouped_mrmr_p2.py  <-  preprocessing/grouped_mrmr_p2.py
+47da595829e6b8195ad64fdd7ebdda601e0faee144f2daf921a5d0aa2f38db75  zenodo_code/iqr_filter.py  <-  preprocessing/iqr_filter.py
+4c8ff858515f71610affa353bc3774692f55fbf7c5749588e02e206c98480357  zenodo_code/n1_boundary_check.py  <-  preprocessing/n1_boundary_check.py
+9385725b5f38b79bc5f2385d61066e79c61d6fc5f565048718ce43a6a361b1f7  zenodo_code/n1_features.py  <-  preprocessing/n1_features.py
+0c01ba6ad10936f4907a7372af87eb1dd6e36e0e08646c47c6e6627805175740  zenodo_code/protocol2_final.py  <-  preprocessing/protocol2_final.py
+e5c57ee9266cfd2a2ec61261a0e331bff1f4457c402b579be521a723877d03d1  zenodo_code/rep_segmentation.py  <-  preprocessing/rep_segmentation.py
+b7748e9202db4f434174945415cbce32c589af6182f9cdc32bfc43c870540036  zenodo_code/stats_utils.py  <-  preprocessing/stats_utils.py
+c5dc6b34fb21f4456bb7c6db0bf66867ab6fcf3c433341f05bc00c4d2496da7d  zenodo_code/verdict.py  <-  preprocessing/verdict.py
+486943f336c3905aaf188b5f93e2a0e349a73742694943075613012c5826665f  data/processed/per_cycle_features.csv  <-  data/processed/per_cycle_features.csv
+267a46231a516eb743edd3d4ddce98e199a148d9691a0c66c7cb66a52c7f411e  data/processed/per_cycle_features_v2b.csv  <-  data/processed/per_cycle_features_v2b.csv
+5991a1a0abef1c272de68865d3725339966da3153af85a8929b21588aa0bf67c  data/results/g12_rowlevel_predictions_v2b.csv  <-  data/results/g12_rowlevel_predictions_v2b.csv
+5af3b0caebcb7c5dc6be807ccc5d3ddfb43f24aaa6e90e5e67b4fe6d4822662b  data/processed/trial_summary_with_flags.csv  <-  dataset/sEMG_data/trial_summary_with_flags.csv
+9197c61e9e39d3c8adb577494ea06c4d5ee1d4cd3d11ddd67deb88bd26e3da1d  models/g12_v2b_fold_models.joblib  (sinh bởi: python model_direction.py --train, trên dữ liệu data/ ở trên)

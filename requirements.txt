@@ -1,0 +1,8 @@
+# Python 3.14. Ghim đúng phiên bản: models/*.joblib là pickle của scikit-learn 1.9.0,
+# nạp bằng phiên bản khác có thể lỗi hoặc cho kết quả khác.
+numpy==2.5.1
+pandas==3.0.5
+scipy==1.18.0
+scikit-learn==1.9.0
+joblib==1.5.3
+matplotlib==3.11.1

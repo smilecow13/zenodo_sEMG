@@ -1,0 +1,12 @@
+# Dữ liệu tự thu (dữ liệu sinh lý của người thật): không commit cho tới khi có trả lời
+# của hội đồng đạo đức về self-test. Chia sẻ trong nhóm qua Drive.
+recordings/*
+!recordings/.gitkeep
+
+# Dữ liệu thô Zenodo 14182446: tự tải, đặt ở dataset/sEMG_data/ hoặc trỏ ZENODO_SEMG_DIR
+dataset/
+
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.vscode/
